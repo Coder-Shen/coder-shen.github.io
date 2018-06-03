@@ -134,14 +134,16 @@ a:hover, a:active {
 .page-top .nav a.logo{
      cursor: pointer;
      background-repeat: no-repeat;
-     background-size:36px auto;
-     width: 36px;
+     background-size:auto 36px;
+     width: 85px;
      height: 36px;
      background-position: center center;
-     background-image: url(/images/logo.jpg);
+     background-image: url(/images/logo-main.png);
      float: left;
      margin: 0px 10px;
      margin-top:-12px;
+	 position:relative;
+	 bottom:-5px;
 }
 
 .page-top .nav li {
